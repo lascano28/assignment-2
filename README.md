@@ -71,34 +71,6 @@ Java's `synchronized` keyword doesn't guarantee fairness. When a lock is release
 
 The output shows all philosophers successfully eating multiple times during the simulation, confirming that starvation doesn't occur in practice.
 
-## How to Run
-
-Compile:
-```bash
-javac src/*.java
-```
-
-Run:
-```bash
-java -cp src DiningPhilosophers
-```
-
-The simulation runs for 10 seconds and displays output showing each philosopher's actions. At the end, each philosopher reports how many meals they ate.
-
-## Sample Output
-
-```
-=== Dining Philosophers simulation started ===
-
-Philosopher 0 - Thinking
-Philosopher 2 - Thinking
-Philosopher 1 - Thinking
-Philosopher 0 - Picked up left fork
-Philosopher 3 - Thinking
-Philosopher 0 - Picked up right fork - eating
-...
-```
-
 ## Concurrency Mechanisms Used
 
 - **Threads**: Each philosopher runs on their own thread (`Thread` class)
