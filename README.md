@@ -1,5 +1,10 @@
 # Dining Philosophers Problem - Design Documentation
 
+## Team Members
+- Tanner Macpherson
+- Lauren Lascano
+- Ella Gonzales
+
 ## Overview
 
 This project implements a solution to the classic Dining Philosophers problem using Java threads. The simulation runs 5 philosophers who alternate between thinking and eating, sharing forks between them.
